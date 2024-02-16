@@ -1,0 +1,336 @@
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: orangered; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 68, 0, 0.852);
+  }
+  
+.body{
+    max-height:154.375rem;
+    background: #020617;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:aliceblue;
+    margin: 0;
+    padding: 0;
+    position: relative;
+   
+  
+}
+
+.first{
+    height:780px;
+    background-color: #020617;
+}
+.row{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:66.563rem;
+    
+
+    
+}
+.head{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height:9.375rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-items: center;
+    background-color: #020617;
+    
+   
+    
+}
+.left{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+   
+}
+.left-top{
+    font-weight: bold;
+    font-size: 22px;
+
+}
+.left-below{
+    font-size: 15px;
+    cursor: pointer;
+}
+.right{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%; 
+    max-width: 300px; 
+    font-size: 15px;
+    cursor: pointer;
+    align-items: center;
+
+}
+.center{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    background-color: #020617;
+    
+}
+.profile{
+    width:350px;
+    
+}
+.fullstack{
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+.code{
+    font-size:26px;
+    margin-top:15px;
+    color:orangered;
+    font-weight: bold;
+}
+.codeone{
+    font-weight: lighter;
+    color:white;
+    
+}
+.info{
+    width:580px; 
+    font-size: 20px;
+    
+}
+.soft{
+    color:orangered;
+    font-weight: bold;
+}
+.social_media{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    width:150px;
+    cursor: pointer;
+}
+.socials{
+    width:25px;
+}
+.recents{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+    margin-top: 100px;
+    
+    
+}
+.titles{
+    display: flex;
+    flex-direction: row;
+    width:1065px;
+    justify-content: space-between;
+
+}
+.title_recent_project{
+    font-weight: bold;
+    font-size: 150px;
+    line-height: 140px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: start;
+    width:580px;
+}
+.view{
+    display: flex;
+    background-color: white;
+    color: orangered;
+    flex-direction: row;
+    margin-top: 150px;
+    margin-right: 0px;
+    font-size: 15px;
+    font-weight: bold;
+    border:none;
+    height:60px;
+    padding:20px 110px 20px 50px;
+    justify-content:center;
+    border-radius: 5px;
+    border:none;
+    font-size: larger;
+    cursor: pointer;
+
+}
+.arrow{
+    width:17px;
+    margin-left:-100px;
+    padding-top:2px;
+    cursor: pointer;
+    
+}
+.view_buttons{
+    cursor: pointer;
+}
+.bxb,.bxb1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 80px;
+}
+.bxb_content{
+     display: flex;
+    align-self:start;
+    font-weight: 500;
+    background-color: orangered;
+    padding: 10px 20px;
+    position: absolute;
+    margin-left:-520px;
+    z-index: 100;
+   
+}
+
+.bxb_content1{
+    display: flex;
+    align-self:start;
+    font-weight: 500;
+    background-color: orangered;
+    padding: 10px 20px;
+    position: absolute;
+    margin-top: 600px;
+    margin-left:370px;
+    z-index: 100;
+}
+
+.voting_sched{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center ;
+    background-color:#0f172a;
+    height: 100px;
+    margin-top:1500px;
+    padding-top:50px;
+    padding-bottom:50px;
+    
+    
+   
+}
+.line{
+    width:1065px;
+    height:2px;
+    background-color: white;
+    margin-left:200px;
+    margin-right:200px;
+    
+}
+.social_images{
+    display:flex;
+    flex-direction: row;
+    width:150px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.text1 {
+    position: relative;
+}
+
+.image-container {
+    position: absolute;
+    cursor: pointer;
+    margin-left: -140px;
+    width: 100%; /* Ensure the container takes up the full width */
+}
+.image-container2 {
+   margin-top: 600px;
+    position: absolute;
+    cursor: pointer;
+    margin-left: -140px;
+    width: 100%; /* Ensure the container takes up the full width */
+}
+
+.recent_project1 {
+    width: 650px; /* Adjust the width as needed */
+    margin-left: -50px;
+    margin-top:10px;
+    transform: scale(1);
+    transition: transform 0.9s ease; /* Adjust the duration and timing function as needed */
+    
+}
+
+.recent_project1:hover {
+    transform: scale(1.16);
+   
+    
+}
+.recent_project2{
+    transform: scale(1);
+    transition: transform 0.9s ease; /* Adjust the duration and timing function as needed */
+    width:573px;
+    margin-top: 35px;
+    margin-left: -290px;
+  
+}
+.recent_project2:hover {
+    transform: scale(1.16);
+   
+    
+}
+
+.bg_pic {
+    position: absolute;
+    margin-left: -380px;
+    top: 0;
+    left: 0;
+    width: 1050px; /* Adjust the width as needed */
+    z-index: -1; /* Push bg_pic to the background */
+}
+.bg_pic1 {
+    position: absolute;
+    margin-left: -410px;
+    top: 0;
+    left: 0;
+    width: 1050px; /* Adjust the width as needed */
+    z-index: -1; /* Push bg_pic to the background */
+}
+
+.socials1{
+    width:23px;
+}
+.name1{
+    font-size: 16px;
+}
+
+.footer_images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:1065px;
+
+
+}
+

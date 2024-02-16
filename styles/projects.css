@@ -1,0 +1,242 @@
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: orangered; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 68, 0, 0.852);
+  }
+
+
+.body{
+    height:1020px;
+    background-color: #020617;
+    color:white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+   
+}  
+.first{
+    height:150px;
+    background-color: #0f172a;
+}
+    .row{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width:1065px;
+        
+    }
+    .head{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height:150px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        align-items: center;
+        
+    }
+    .left{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+       
+    }
+    .left-top{
+        font-weight: bold;
+        font-size: 22px;
+    
+    }
+    .left-below{
+        font-size: 15px;
+        cursor: pointer;
+    }
+    .right{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width:300px;
+        font-size: 15px;
+        cursor: pointer;
+        align-items: center;
+    
+    }
+    .Projects{
+        text-decoration: none;
+        padding-bottom: 5px;
+        border-bottom: 1px solid blue;
+        font-weight: bold;
+        
+    }
+.title_projects{
+    display: flex;
+    flex-direction: column;
+    color:white;
+    align-items: center;
+    margin-top: 80px;
+  
+}
+.project{
+    font-size: 150px;
+    animation: slideInLeft 0.5s ease-in ;
+    font-weight: bold;
+    margin-left:-523px;
+    color:white;
+    margin-bottom: 50px;
+    
+    
+    
+}
+@keyframes slideInLeft{
+    from{
+        transform: translate(-200px);
+    }
+    to{
+        transform:translate(0);
+    }
+
+}
+.proj{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: -5px;
+    
+}
+.one{
+    width:520px;
+    margin:20px;
+    
+}
+.one{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    position: relative;
+    background-color: azure;
+    cursor: pointer;
+    
+}
+.num1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    margin-top:-250px;
+    margin-left:50px;
+    font-size: 25px;
+    width:40px;
+    
+    
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    margin-top:-260px;
+    margin-left:180px;
+    background-color: #0508c0;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-weight: 500;
+
+}
+.c{
+    width:50px;
+
+}
+.other-projects{
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+   margin-left: 200px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.divs{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    background-color: rgb(68, 71, 71);
+    align-items: center;
+    width:1065px;
+    margin-bottom: 30px;
+}
+.text-title{
+    font-size: 50px;
+    margin-bottom: 30px;
+
+}
+.space{
+    margin-left: 20px;
+}
+.title-here{
+    margin-top: 30px;
+}
+.github-project{
+    margin-bottom:15px;
+    margin-left: 20px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center ;
+    background-color:#0f172a;
+    height: 100px;
+    margin-top:400px;
+    padding-top:50px;
+    padding-bottom:50px;
+    
+    
+   
+}
+.line{
+    width:1065px;
+    height:2px;
+    background-color: white;
+    margin-left:200px;
+    margin-right:200px;
+    
+}
+.social_images{
+    display:flex;
+    flex-direction: row;
+    width:150px;
+    justify-content: space-between;
+    cursor: pointer;
+    
+}
+.socials1{
+    width:23px;
+}
+.name1{
+    font-size: 16px;
+   
+   
+}
+.footer_images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:1065px;
+
+
+}
+
+

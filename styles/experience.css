@@ -1,0 +1,233 @@
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: orangered; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 68, 0, 0.852);
+}
+
+
+.body{
+  background-color: #020617;
+  color:white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+ 
+}  
+.first{
+  height:150px;
+  background-color: #0f172a;
+}
+  .row{
+      display:flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width:1065px;
+      
+  }
+  .head{
+      display:flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      height:150px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      align-items: center;
+      
+  }
+  .left{
+      display:flex;
+      flex-direction: column;
+      justify-content: space-between;
+      
+     
+  }
+  .left-top{
+      font-weight: bold;
+      font-size: 22px;
+  
+  }
+  .left-below{
+      font-size: 15px;
+      cursor: pointer;
+  }
+  .right{
+      display:flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width:300px;
+      font-size: 15px;
+      cursor: pointer;
+      align-items: center;
+  
+  }
+    .Experience{
+        text-decoration: none;
+        padding-bottom: 5px;
+        border-bottom: 1px solid blue;
+        font-weight: bold;
+    
+    }
+    .title_projects{
+        display: flex;
+        flex-direction: column;
+        color:white;
+        align-items: center;
+        margin-top: 80px;
+      
+    }
+    .project{
+        font-size: 150px;
+        animation: slideInLeft 0.5s ease-in ;
+        font-weight: bold;
+        margin-left:-323px;
+        color:white;
+      
+
+    }
+    @keyframes slideInLeft{
+        from{
+            transform: translate(-200px);
+        }
+        to{
+            transform:translate(0);
+        }
+    
+    }
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .time{
+        display: flex;
+        flex-direction: row;
+        gap:20px;
+        margin-left:-10px;
+        
+      }
+      .top{
+        
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 30px;
+        color:orangered;
+        font-size: 35px;
+        margin-top: 50px;
+        
+      }
+      .description{
+        font-weight: bold;
+        margin-top: -10px;
+        
+      }
+   
+      
+      .timeline {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+
+
+      }
+
+      .outer {
+        border-left: 2px solid #333;
+      }
+      
+      .card {
+        position: relative;
+        margin: 0 0 20px 20px;
+        padding: 10px;
+        background: #333;
+        color: white;
+        border-radius: 8px;
+        width: 470px;
+        
+      }
+      
+      .info {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      
+      .title {
+        color: orangered;
+        position: relative;
+      }
+      
+      .title::before {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        background: white;
+        border-radius: 999px;
+        left: -39px;
+        border: 3px solid orangered;
+      }
+      .timeline2{
+        padding-top:20px;
+      }
+
+ 
+.footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items:center ;
+  background-color: #0f172a;
+  height: 100px;
+  margin-top:400px;
+  padding-top:50px;
+  padding-bottom:50px;
+  
+  
+ 
+}
+.line{
+  width:1065px;
+  height:2px;
+  background-color: white;
+  margin-left:200px;
+  margin-right:200px;
+  
+}
+.social_images{
+  display:flex;
+  flex-direction: row;
+  width:150px;
+  justify-content: space-between;
+  cursor: pointer;
+  
+}
+.socials1{
+  width:23px;
+}
+.name1{
+  font-size: 16px;
+ 
+ 
+}
+.footer_images{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width:1065px;
+
+
+}
+
+
